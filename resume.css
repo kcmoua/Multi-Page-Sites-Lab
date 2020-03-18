@@ -1,0 +1,119 @@
+/* html{
+	background-image: url(https://pbs.twimg.com/profile_images/1217814207757983744/CkcqSSTo_400x400.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;} */
+
+nav li{
+	display: inline;
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	margin-right: 30px;}
+
+nav a{
+	text-decoration:none;
+	color:orange;}
+
+nav a:hover{
+	color: pink;
+	text-decoration: underline;}
+
+h2{
+	color: pink;
+	font-size: 30px;}
+/* li{
+	font-weight: bold;} */
+
+table, th, td{
+	border: 1px solid black;}
+
+table{
+	background-color: yellow;
+	padding: 15px;
+	margin: 0 auto;}
+	/* (margin) When there are two numbers, the first number is for top+bottom, the second is for right+left */
+th, td{
+	background-color: white;
+	padding: 5px;}
+
+.tableHeadingRow{
+	margin-bottom: 10px;}
+/* The # signals an ID */
+/* #headshot{
+	position: absolute;
+	top: 0;
+	right: 5%;} */
+
+#linkBox_content:hover #linkBox_img{
+	transform: scale(1.4);}
+
+#linkBox_content{
+	position: relative;
+	width: 33%;
+	overflow: hidden;}
+
+.linkBox_wrapper, .linkBox_wrapper a{
+	position: relative;}
+
+#linkBox_img{
+	width: 70%;
+	transition: all 1.5s ease-in-out;}
+
+#linkBox_text{
+	position: absolute;
+	top: 45%;
+	left: 5%;
+	color:yellow;
+	font-size: 20px;
+	font-family: sans-serif;}
+
+#placesHeader{
+	color: blue;
+	text-align: center;
+	margin-bottom: 50px;}
+/* The . signals a class */
+.educationImage{
+	transform: rotate(180deg);}
+
+button{
+	border: 2px solid black;
+	padding: 10px 25px;
+	display: block;
+	margin-bottom: 20px;}
+
+button:hover{
+	background-color: black;
+	color: white;
+	font-weight: bold;}
+
+.redButton{
+	border: 2px solid red;}
+
+.redButton:hover{
+	background-color: red;
+	font-weight: bold;}
+
+.blueButton{
+	border: 2px solid blue;}
+
+.blueButton:hover{
+	background-color: blue;
+	font-weight: bold;}
+
+form input, form select{
+	display: block;}
+
+#blog{
+	background-color: lightyellow;}
+
+#me{
+	font-family: Courier;}
+	
+#cam{
+	background-color: lightblue;}
+
+#sad{
+	font-family: "Comic Sans MS";}
